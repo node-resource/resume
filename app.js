@@ -10,7 +10,7 @@ var route = require('./routes');
 var app = express();
 
 app.set('views',__dirname + '/static/views');//视图路径
-app.set('port',process.env.PORT || 8080);//设置端口
+app.set('port',process.env.PORT || 80);//设置端口
 app.set('view engine','pug');//设置模版引擎
 
 app.use(express.static(__dirname + '/static'));//设置静态文件目录
