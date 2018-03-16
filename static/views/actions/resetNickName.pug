@@ -1,0 +1,25 @@
+doctype html
+
+html(lang="en")
+	head
+		title 修改昵称
+		include ../common/style
+
+	body
+		.wrap
+			include ../common/header
+			include ../common/nav
+			.content
+				.login-area
+					.login-title  修改昵称
+					.form-row
+						label.label 新昵称：
+						input.input#nickname(placeholder="请输入新的昵称",type="text")
+						.input-error-til 
+					.form-row.center
+						span.btn.btn-primary#submit 提交
+						span.btn.btn-plain-primary#cancel 取消
+			include ../common/footer
+
+	include ../common/script
+	script(src="/js/page/resetNickName.js")

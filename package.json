@@ -1,0 +1,35 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "this is my resume developed by using Node tool!\nThank you very much for your reading!\nBest wishes for you !",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-resource/resume.git"
+  },
+  "keywords": [
+    "node",
+    "pug"
+  ],
+  "author": "liguang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-resource/resume/issues"
+  },
+  "homepage": "https://github.com/node-resource/resume#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "log4js": "^2.5.3"
+  },
+  "devDependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.6",
+    "pug": "^2.0.1"
+  }
+}

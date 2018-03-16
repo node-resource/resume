@@ -1,0 +1,33 @@
+doctype html
+
+html(lang="en")
+	head
+		title 重置密码
+		include ../common/style
+
+	body
+		.wrap
+			include ../common/header
+			include ../common/nav
+			.content
+				.login-area
+					.login-title  重置密码
+					.form-row
+						label.label 原密码：
+						input.input#pwd-old(placeholder="请输入原密码",type="password")
+						.input-error-til 
+					.form-row
+						label.label 新密码：
+						input.input#pwd-new(placeholder="请输入新密码",type="password",disabled)
+						.input-error-til 
+					.form-row
+						label.label 确认新密码：
+						input.input#pwd-new-sure(placeholder="请再次输入新密码",type="password",disabled)
+						.input-error-til 
+					.form-row.center
+						span.btn.btn-primary.btn-disable#submit 提交
+						span.btn.btn-plain-primary#cancel 取消
+			include ../common/footer
+
+	include ../common/script
+	script(src="/js/page/resetPwd.js")

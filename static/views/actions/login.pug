@@ -1,0 +1,23 @@
+doctype html
+
+html(lang=en)
+	head
+		title 用户登录
+		include ../common/style
+	body
+		.login-area
+			.login-title  用户登录
+			.form-row
+				label.label 用户名：
+				input.input#username(placeholder="请输入用户名",type="text")
+				.input-error-til  
+			.form-row
+				label.label 密 码：
+				input.input#pwd(placeholder="请输入密码",type="password")
+				.input-error-til 
+			.form-row.center
+				span.btn.btn-primary#login 登录
+				span.btn.btn-plain-primary#register 注册
+				
+	include ../common/script
+	script(src="/js/page/login.js")
