@@ -1,0 +1,38 @@
+[
+	{
+		"level":1,
+		"value":"VC",
+		"submenu":[
+			{
+				"level":2,
+				"value":"menu1",
+				"goto":"/user/basicInfo"
+			},{
+				"level":2,
+				"value":"menu2",
+				"goto":"/user/ownValution"
+			},{
+				"level":2,
+				"value":"menu3",
+				"goto":"/user/careerPlan"
+			},{
+				"level":2,
+				"value":"menu4",
+				"goto":"/user/workCareer"
+			},{
+				"level":2,
+				"value":"menu5",
+				"goto":"/user/hobbyGarden"
+			},{
+				"level":2,
+				"value":"menu6",
+				"goto":"/user/hobbyGarden"
+			},{
+				"level":2,
+				"value":"menu7",
+				"goto":"/user/educationBg"
+			}
+
+		]
+	}
+]

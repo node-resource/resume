@@ -127,8 +127,9 @@ input,textarea{
 	border-top:none;
 	border-bottom:8px solid #fff;
 }
-
 /* header 结束*/
+
+/* footer */
 .footer {
 	position: fixed;
 	left:0;
@@ -147,7 +148,9 @@ input,textarea{
 .footer .item.link a{
 	color: #4a8bc2;
 }
+/* footer 结束*/
 
+/* nav */
 .nav {
 	position: fixed;
 	left:0;
@@ -157,7 +160,47 @@ input,textarea{
 	width:200px;
 	background-color: #505050;
 }
+.nav ul a,.nav ul span{
+	display: block;
+	width:100%;
+	line-height: 40px;
+	height: 40px;
+	color:#e8e8e8;	
+}
+.nav ul a:hover,.nav ul span:hover {
+	background-color: #e8e8e8;
+	color:#4a8bc2;
+}
+.nav ul span {
+	position: relative;
+	padding-left: 20px;
+	border-bottom:1px solid #3a3737;
+}
+.nav ul a {
+	padding-left:40px;
+	background-color: #3a3737;
+}
+.nav ul span::after {
+	content: "";
+	position: absolute;
+	right:10px;
+	top:15px;
+	display:inline-block;  
+    width:0;  
+    height:0;  
+    border-left:8px solid transparent;  
+    border-right: 8px solid transparent;  
+    border-top:8px solid #4a8bc2;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav ul span.up::after {
+	border-top:none;
+	border-bottom:8px solid #4a8bc2;
+}
+/* nav 结束*/
 
+/* content */
 .content {
 	position: absolute;
 	left:200px;
@@ -167,6 +210,7 @@ input,textarea{
 	z-index: 10;
 	overflow: auto;
 }
+/* content 结束*/
 
 /* 页面级别 */
 /* 登陆页面 */
