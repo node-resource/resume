@@ -19,37 +19,36 @@
 |     |---- image //网站静态图片资源管理
 |     |---- views
 |           |---- actions
-|				  |---- login.pug //登录页面
-|				  |---- register.pug //注册页面
-|				  |---- resetPwd.pug //重置密码页面
-|				  |---- resetNickName.pug //重置用户昵称
+|                 |---- login.pug //登录页面
+|                 |---- register.pug //注册页面
+|                 |---- resetPwd.pug //重置密码页面
+|                 |---- resetNickName.pug //重置用户昵称
 |           |---- page
-|                 |---- home.pug //页面主页 
-|				  |---- 
-|			|---- common
-|				  |---- header.pug //头部文件
-|				  |---- nav.pug //导航菜单
-|				  |---- footer.pug //底部文件
-|				  |---- style.pug //样式文件
-|				  |---- script.pug //脚本文件
+|                 |---- home.pug //页面主页  
+|           |---- common
+|                 |---- header.pug //头部文件
+|                 |---- nav.pug //导航菜单
+|                 |---- footer.pug //底部文件
+|                 |---- style.pug //样式文件
+|                 |---- script.pug //脚本文件
 |     |---- style
 |           |---- common.css //公共文件
 |     |---- js
 |           |---- common
 |                 |---- page.js // 控制页面公共头部，菜单栏，底部区域
 |           |---- components //放各个自定义组件
-|				  |---- http.js //封装请求
-|				  |---- dialog.js // 封装弹框
+|                 |---- http.js //封装请求
+|                 |---- dialog.js // 封装弹框
 |           |---- modules	// 放各个模块
 |                 |---- file.js //用于读取文件
 |           |---- plugins // 引入的各个第三方插件
 |           |---- page 
 |                 |---- login.js //登录相关 
-|				  |---- register.js //注册相关
-|				  |---- resetPwd.js //重置密码
-|				  |---- resetNickName.js //重置用户名
+|                 |---- register.js //注册相关
+|                 |---- resetPwd.js //重置密码
+|                 |---- resetNickName.js //重置用户名
 |---- data
-|	  |---- user.json  //用户数据
+|     |---- user.json  //用户数据
 |---- routes
 |     |---- action //表示动作，如登录，退出等
 |           |---- login.js //登录相关路由
